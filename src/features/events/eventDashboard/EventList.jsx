@@ -1,7 +1,7 @@
-import React from "react";
-import EventListItem from "./EventListItem.jsx";
+import React from 'react';
+import EventListItem from './EventListItem';
 
-function EventList({ events }) {
+export default function EventList({ events }) {
   return (
     <>
       {events.map((event) => (
@@ -10,5 +10,3 @@ function EventList({ events }) {
     </>
   );
 }
-
-export default EventList;
